@@ -1,0 +1,5 @@
+echo "Sara Winzer, summary of about-sequences"
+ls -l ~/Documents/GitHub/CompSkillsF16_Info/CompSkillsF16/Homework/Resources
+echo "Number of sequences:"
+wc grep '>' ~/Documents/GitHub/CompSkillsF16_Info/CompSkillsF16/Homework/Resources/HW1-sequences.fsa
+tail -12 ~/Documents/GitHub/CompSkillsF16_Info/CompSkillsF16/Homework/Resources/HW1-sequences.fsa
