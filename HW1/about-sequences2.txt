@@ -1,0 +1,5 @@
+echo "Sara Winzer, summary of about-sequences"
+ls -l ~/CompSkillsF16/Homework/Resources
+echo "Number of sequences:"
+grep '>' ~/CompSkillsF16/Homework/Resources/HW1-sequences.fsa | wc
+tail -12 ~/CompSkillsF16/Homework/Resources/HW1-sequences.fsa
