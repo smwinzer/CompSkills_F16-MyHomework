@@ -1,0 +1,24 @@
+#Code for HW3
+'''
+Todos:
+1.  Define a function named CountNucs that takes two arguments, a string s and a character c, and returns the number of times c occurs in s
+2. Create a int list of length 7 named Counts
+3. Use CountNucs to count the number of nucleotides in string [A,C,G,T,N,Y,U]
+4. Set Count[i] to the number of times the ith nucleotide in [A,C,G,T,N,Y,U] occurs in each sequence (Counts[1] should be the number of C’s in the sequence)
+5. Print the following:
+Sequence: *s*
+*n* occurs *i* times for each nucleotide n
+The sequence has *n* nucleotides where *a* (*p* percent) are ambiguous (n is length of string and a is the number of ambiguity codes, and p is $a/n$
+A blank line between outputs
+
+Sequence 1: CGCAGCTAACGCATTAAGCACTCCGCCTGGGGAGTACGACCGCAAGGTTGAA
+Sequence 2: CGCATCGTAAAGCTCTGTTGTTGGTGAAGAAGGATAGAGGTAGTAACTGGCCT
+
+Notes:
+Print can take multiple arguments separated by commas
+Follow style guidelines in section 4.8 of online tutorial
+'''
+
+def CountNucs(s,c)
+    Counts=["A","C","G","T","N","Y","U"]
+    
