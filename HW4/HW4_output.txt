@@ -1,0 +1,40 @@
+SampleID: PE716_ST6_21_F	Tech: MISEQ	fwd: TTGACCCT	rev: TAGACCTA	Gene: ST6_21_F	Origin: PE
+
+SampleID: PE714_ST6_12_F	Tech: MISEQ	fwd: TTGACCCT	rev: CTAGAACA	Gene: ST6_12_F	Origin: PE
+
+SampleID: ETU011_ST6_16_F	Tech: MISEQ	fwd: GTCGTGAT	rev: CTAAGCCT	Gene: ST6_16_F	Origin: ET
+
+SampleID: ETR208_ST6_10_F	Tech: MISEQ	fwd: ACCACTGT	rev: TGCTCTGA	Gene: ST6_10_F	Origin: ET
+
+SampleID: PE731_ST6_25_F	Tech: MISEQ	fwd: CCACTCCT	rev: TAGGAGTA	Gene: ST6_25_F	Origin: PE
+
+SampleID: GBR320_FUT3_3_F	Tech: MISEQ	fwd: TCCTGGGT	rev: TAGATCGC	Gene: FUT3_3_F	Origin: GB
+
+SampleID: SW903_ST6_16_F	Tech: MISEQ	fwd: TCTCCGGA	rev: CTAGAACA	Gene: ST6_16_F	Origin: SW
+
+SampleID: ETR228_ST6_25_F	Tech: MISEQ	fwd: TGGATCTG	rev: TAAGTTCC	Gene: ST6_25_F	Origin: ET
+
+SampleID: SP839_ST6_21_F	Tech: MISEQ	fwd: TCTCCGGA	rev: TAGGAGTA	Gene: ST6_21_F	Origin: SP
+
+SampleID: GN517_ST6_21_F	Tech: MISEQ	fwd: GTGTGGTG	rev: GTAAGGAG	Gene: ST6_21_F	Origin: GN
+
+SampleID: ETU023_ST6_22_F	Tech: MISEQ	fwd: GTCGTGAT	rev: CCTATCCT	Gene: ST6_22_F	Origin: ET
+
+SampleID: PE705_ST6_25_F	Tech: MISEQ	fwd: TTGACCCT	rev: GTAAGGAG	Gene: ST6_25_F	Origin: PE
+
+SampleID: SP818_ST6_4_F	Tech: MISEQ	fwd: CGAGTAAT	rev: TGCTAAGT	Gene: ST6_4_F	Origin: SP
+
+SampleID: GBU419_ST6_25_F	Tech: MISEQ	fwd: GAGGGGTT	rev: TAGACCTA	Gene: ST6_25_F	Origin: GB
+
+SampleID: GN526_FUT3_4_F	Tech: MISEQ	fwd: GTGTGGTG	rev: CTAGTCGA	Gene: FUT3_4_F	Origin: GN
+
+SampleID: GBR301_ST6_10_F	Tech: MISEQ	fwd: CCGTTTGT	rev: ACTGCATA	Gene: ST6_10_F	Origin: GB
+
+SampleID: GBR308_ST6_11_F	Tech: MISEQ	fwd: CCGTTTGT	rev: CTAATCGA	Gene: ST6_11_F	Origin: GB
+
+SampleID: PE709_FUT3_5_F	Tech: MISEQ	fwd: TTGACCCT	rev: TGAACCTT	Gene: FUT3_5_F	Origin: PE
+
+SampleID: ETU038_ST6_19_F	Tech: MISEQ	fwd: ACCACTGT	rev: AAGGAGTA	Gene: ST6_19_F	Origin: ET
+
+SampleID: PE724_ST6_3_F	Tech: MISEQ	fwd: TTGACCCT	rev: GTACTGAC	Gene: ST6_3_F	Origin: PE
+
