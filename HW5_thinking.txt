@@ -1,0 +1,29 @@
+1. Make file a standalone executable using a shebang with the appropriate modifications
+#!/usr/bin/env python3 #This should be the first line of your code and should make it work
+
+2. File needs to take two parameters at run time, the first being an input file and the second being an output file
+Get user input:
+	while True:
+		filename = input("Enter input file name: "P
+		try: 
+			with open(filename, "r") as f: processFile(f)
+			break
+		except IO error as err: 
+			print("Invalid file!", err)
+		finally: print("Input accepted!"
+Get user output file:
+	
+
+3. Run code from HW4
+4. Pass output from HW4 code into a dictionary
+See lecture 9/29
+
+5. Add sequences to another dictionary using sampleID as a key
+6. Also add GC content to the end of each entry in the first dictionary
+7. Write the following to the runtime output file
+a. # Input file *inputFileName*
+b. # Output file *outputFileName*
+c. # Sequences processed: *numberOfSequences*
+d. # Average sequence length: *averageLength*
+e. # Average GC Content: *averageGC*
+8. Run program with sequences.fasta as input and seqDataOutput.txt as output 
