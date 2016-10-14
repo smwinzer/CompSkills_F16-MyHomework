@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+
+import sys
+.,
+while True:
+		Headers = input("Enter input file name: ")
+		try: 
+			with open(Headers, "r") as f: processFile(f)
+			break
+		except: IO error as err: 
+			print("Invalid file!", err)
+		finally: print("Input accepted!")
+#Try this
+#Headers = pd.read_csv('sys.stdin.readlines()')
+
+#Also this for  output
+#dataobjectname.to_csv('need something here to tell it to print to the file
+		#that I tell it to print to')
+#Or this...
+print('Where would you like to save the results?')
+#sys.stdout = open('file','w')
