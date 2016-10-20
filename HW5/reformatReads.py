@@ -5,12 +5,13 @@ import sys
 #Read from STDIN
 
 Headers = sys.stdin.readlines()
+#Seqs = ">MISEQ:7:000000000-AMAKG:1:1101:16998:1719 1:N:0:PE716:ST6_21 TTGACCCT|0|TAGACCTA|0 ST6_21_F|0|23|"
 
 #Split each line input into separate fields
 
 for nextHeader in Headers:
-	Fields = nextHeader.split()
-	Technology, sampleID, Primers, gene = Fields
+    Fields = nextHeader.split(" ")
+    Technology, sampleID, Primers, gene = Fields
 	
 	#Extract technology type
 	Technology = Technology.split(':')

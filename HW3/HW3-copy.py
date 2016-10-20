@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.5
+
 #This is the python code for homework 3
 
 '''

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 #Solution for HW4, will extract information about DNA sequences from a fasta file
 
 import sys
