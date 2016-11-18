@@ -1,0 +1,49 @@
+#!/usr/bin/env python3.5
+
+#This is the code for HW7. 
+#To run program, ./code7.py inputfilename outputfilename
+
+‘’’
+Todos:
+
+1. Read vaginal_communities.txt file into a pandas dataframe named summaryByDay
+2. Change all OTU counts to relative abundances (read counts / total count in Total)
+3. Drop the columns: 'ID', 'time', 'Week', 'Day',  'Batch_ID','Date'
+4. In a separate dataframe called summaryByWeek, compute the average relative
+	abundance of each OTU for each patient for weeks 1 and 10.
+5. Update Totals column to be the total reads for each of the two weeks
+6. Add a column with the Shannon Diversity Index for each row 
+7. Add another column with the inverse simpson diversity index for each row
+8. In a separate dataframe called summaryByWoman, compute the average relative
+	abundance of each OTU of each patient
+9. Be sure to update Totals column
+10. Add a column with the Shannon Diversity Index for each row 
+11. Add another column with the inverse simpson diversity index for each row
+12. Write these dataframes as tab delimited txt files with the same names
+'''
+
+#Reading a txt file into a pandas dataframe
+import pandas as pd
+import sys
+from sys import argv as args
+program, input, output = args
+
+data = pd.DataFrame(input)
+
+#OR
+data = pd.read_txt('input')
+
+#Drop unrelated columns and put remaining columns into separate dataframe
+summaryByDay = DataFrame(data, columns=['sampleID','patientID','Lactobacillus_crispatus','Lactobacillus_iners','Lactobacillus_gasseri','Lactobacillus_jensenii','Atopobium_vaginae','Streptococcus_anginosus','Prevotella_genogroup_3','Clostridiales','Enterococcus_faecalis','Corynebacterium_accolens','Total'])
+
+#Change all OTU counts to relative abundances (counts/Total)
+summaryByDay['Lactobacillus_crispatus'] = ['Lactobacillus_crispatus']/[Total] 
+summaryByDay['Lactobacillus_iners']
+summaryByDay['Lactobacillus_gasseri']
+summaryByDay['Lactobacillus_jensenii']
+summaryByDay['Atopobium_vaginae']
+summaryByDay['Streptococcus_anginosus']
+summaryByDay['Prevotella_genogroup_3']
+summaryByDay['Clostridiales']
+summaryByDay['Enterococcus_faecalis']
+summaryByDay['Corynebacterium_accolens']
